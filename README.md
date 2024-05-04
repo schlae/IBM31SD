@@ -38,22 +38,23 @@ A quick note about IBM part numbers: They are often divided into a group of thre
 | 2392471 | 4-pin, 3 resistor, each 90 ohms. Pin 1 is the common pin. |
 | 2392488 | 4-pin, 3 resistor, each 400 ohms. Pin 1 is the common pin. |
 | 2392787 | 6-pin, 4 resistor, each 1K. Resistors on pins 1 and 2 are bussed to pin 3, and resistors on pins 5 and 6 are bussed to pin 4. |
-| 2408334 | 4-pin, 2 resistor, each 120K ohms. Pins 1 and 2 is one resistor, pins 3 and 4 are the other resistor. |
+| 2408334 | 4-pin, 2 resistor, each 121K ohms. Pins 1 and 2 is one resistor, pins 3 and 4 are the other resistor. |
 | 2408846 | 8-pin, 2 resistor, each 95 ohms. Pins 1 and 4 is one resistor, pins 5 and 8 are the other resistor. Presumably this resistor can handle higher power levels. |
 | *Tantalum capacitors* | |
-| 1589440 | Marked "440". Probably 1uF with a voltage rating of at least 35V. |
-| 2396951 | Marked "951". Probably 10uF with a voltage rating probably less than 10V. |
-| 5616808 | Marked "808". Probably 4.7uF with a voltage rating probably less than 10V. |
+| 1589440 | Marked "440". 0.68uF 50V. |
+| 2396951 | Marked "951". 8.2uF 12V. |
+| 5616808 | Marked "808". 3.9uF 20V. |
 | *Ceramic capacitors* | |
-| 1539475 | Marked "9475". 0.1uF, unknown voltage rating. |
-| 1589422 | Marked "9422". 0.01uF, unknown voltage rating. |
-| 2391271 | Marked "1271". 120pF, unknown voltage rating. |
-| 5616796 | Marked "6796". 68pF, unknown voltage rating. |
-| 5616797 | Marked "6797". 180pF, unknown voltage rating. |
+| 1539475 | Marked "9475". 0.1uF +/-10% 25V X5R. |
+| 1589422 | Marked "9422". 0.01uF +/-15% 50V X5R. |
+| 2391271 | Marked "1271". 120pF +/-10% 100V Z5E. |
+| 5616796 | Marked "6796". 68pF +/-5% 50V NP0. |
+| 5616797 | Marked "6797". 180pF +/-5% 50V NP0. |
+| *Film Capacitor* | |
+| 0491309 | Marked "491 309 123 8210". 2.7nF +/-5% 100V mylar film. |
 
 I'm less certain about part numbers for other devices on this board:
 
-* Red axial film capacitor marked "491 309 123 8210" which may contain a part number and a date code. It measures out to 2700pF.
 * Diode, glass package, marked 66 234 GG with a Fairchild logo.
 * Diode, rectifier, marked G1419U.
 * Transistor, probably NPN, marked 194 U8227K. The important bit is the "194" and the rest is a date code. It has a Motorola logo.
